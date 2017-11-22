@@ -165,28 +165,45 @@ footer {
 .exhibits,
 .exhibit,
 .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .logo-name,
 .menu a,
 .campus-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .call-to-action,
 .info-text,
 .exhibit-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header-desktop,
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header-desktop,
@@ -231,6 +248,8 @@ a {
 
 .image-container,
 .video-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: 0;
   vertical-align: bottom;
@@ -313,7 +332,8 @@ video {
 .banner img {
   padding: 2rem 1.5rem;
   height: auto;
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .call-to-action {
@@ -414,8 +434,11 @@ video {
 ul.courses-list {
   margin: 1rem 3.5rem 0 3.5rem;
   padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
 }
 
 .course {
@@ -564,7 +587,10 @@ footer {
     margin-bottom: 3rem;
   }
   .campus-info {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
     width: 100%;
     padding: 1rem 1rem 0.5rem 1rem;
     width: 85%;
@@ -636,7 +662,10 @@ footer {
     width: 100%;
   }
   .exhibit {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .exhibit .image-container {
     padding-right: 0;
@@ -818,9 +847,14 @@ footer {
     background-color: #FFFFFF;
   }
   .menu-mobile {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 4rem;
     font-size: 0;
     position: fixed;
@@ -856,7 +890,10 @@ footer {
     margin-left: 0;
   }
   .campus-info {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
     padding: 1rem;
     border: none;
   }
@@ -905,7 +942,9 @@ footer {
     margin: 2rem 0 1rem 0;
   }
   .video-container-mobile {
-    display: flex;
+    display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
     font-size: 0;
     border: 2px outset #EDE9F7;
     margin-bottom: 2rem;
