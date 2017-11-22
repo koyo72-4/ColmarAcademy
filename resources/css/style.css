@@ -89,7 +89,9 @@ html {
 .banner .call-to-action a {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  border: 4px solid #2AD142;
+  border-left: 8px solid #5A38A3;
+  border-right: 8px solid #5A38A3;
+  background-color: #2AD142;
 }
 
 .information .main-article blockquote {
@@ -435,6 +437,8 @@ video {
 
 .call-to-action a:hover {
   background-color: #5A38A3;
+  border-right: 8px solid #2AD142;
+  border-left: 8px solid #2AD142;
 }
 
 .call-to-action a:active {
@@ -890,7 +894,7 @@ ul.courses-list {
 }
 
 .thesis-exhibits-desktop {
-  margin-bottom: 3.5rem;
+  margin-bottom: 3rem;
 }
 
 .thesis-exhibits-desktop h2 {
