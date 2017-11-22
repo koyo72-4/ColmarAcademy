@@ -17,7 +17,7 @@
       <a href="#top"><img src="./resources/images/ic-logo.svg" alt="Colmar Academy logo" /></a>
       <a href="#top"><span>Colmar</span><span>Academy</span></a>
     </div>
-    <nav>
+    <nav class="menu">
       <a href="#"><span>On campus</span></a>
       <div></div>
       <a href="#"><span>Online</span></a>
@@ -31,7 +31,7 @@
 <!-- Header (Mobile) -->
 
   <header class="header-mobile">
-    <nav>
+    <nav class="menu-mobile">
       <a href="#"><img src="./resources/images/ic-logo.svg" alt="Colmar Academy logo" /></a>
       <a href="#"><img src="./resources/images/ic-on-campus.svg" alt="Colmar Academy logo" /></a>
       <a href="#"><img src="./resources/images/ic-online.svg" alt="Colmar Academy logo" /></a>
@@ -41,9 +41,9 @@
 
 <!-- Banner (Desktop/Mobile) -->
 
-  <section class="banner-desktop">
+  <section class="banner">
     <img src="./resources/images/banner.jpg" alt="Students studying at a table" />
-    <div class="banner-image"></div>
+    <div class="banner-image-mobile"></div>
     <div class="call-to-action">
       <h1>Learn something new every day</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -63,7 +63,7 @@
       <p>Emanuel, Sr Strategist at Hiring.com</p>
     </div>
     <div class="events-campuses">
-      <div class="campus-info">
+      <div id="orientation" class="campus-info">
         <div class="image-container">
           <a href="#"><img class="desktop-image" src="./resources/images/information-orientation.jpg" alt="Students walking to class" /></a>
           <a href="#"><img class="mobile-image" src="./resources/images/information-orientation-mobile.jpg" alt="Students walking to class" /></a>
@@ -74,7 +74,7 @@
           <a href="#">Read more</a>
         </div>
       </div>
-      <div class="campus-info">
+      <div id="our-campus" class="campus-info">
         <div class="image-container">
           <a href="#"><img class="desktop-image" src="./resources/images/information-campus.jpg" alt="Classroom" /></a>
           <a href="#"><img class="mobile-image" src="./resources/images/information-campus-mobile.jpg" alt="Classroom" /></a>
@@ -85,7 +85,7 @@
           <a href="#">Read more</a>
         </div>
       </div>
-      <div class="campus-info">
+      <div id="guest-lecture" class="campus-info">
         <div class="image-container">
           <a href="#"><img class="desktop-image" src="./resources/images/information-guest-lecture.jpg" alt="Oliver Sack" /></a>
           <a href="#"><img class="mobile-image" src="./resources/images/information-guest-lecture-mobile.jpg" alt="Oliver Sack" /></a>
@@ -172,28 +172,16 @@
   <section class="courses-mobile">
     <h2><a href="#">Start Learning</a></h2>
     <ul class="courses-list-mobile">
-      <li class="course-mobile">
-        <a href="#"><span>Software engineering</span></a>
-      </li>
-      <li class="course-mobile">
-        <a href="#"><span>Computer art</span></a>
-      </li>
-      <li class="course-mobile">
-        <a href="#"><span>Design</span></a>
-      </li>
-      <li class="course-mobile">
-        <a href="#"><span>Data</span></a>
-      </li>
-      <li class="course-mobile">
-        <a href="#"><span>Business</span></a>
-      </li>
-      <li class="course-mobile">
-        <a href="#"><span>Marketing</span></a>
-      </li>
+      <li class="course-mobile"><a href="#">Software engineering</a></li>
+      <li class="course-mobile"><a href="#">Computer art</a></li>
+      <li class="course-mobile"><a href="#">Design</a></li>
+      <li class="course-mobile"><a href="#">Data</a></li>
+      <li class="course-mobile"><a href="#">Business</a></li>
+      <li class="course-mobile"><a href="#">Marketing</a></li>
     </ul>
   </section>
 
-<!-- Thesis Exhibits (Desktop)-->
+<!-- Thesis Exhibits (Desktop) -->
 
   <section class="thesis-exhibits-desktop">
     <h2><a href="#">Thesis exhibits</a></h2>
@@ -206,16 +194,16 @@
         <blockquote>&ldquo;Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.&rdquo;</blockquote>
       </div>
       <div class="more-exhibits">
-        <div class="exhibit">
+        <div id="fisma" class="exhibit">
           <div class="image-container">
             <a href="#"><img src="./resources/images/thesis-fisma.jpg" alt="Designer working" /></a>
           </div>
           <div class="exhibit-description">
-            <h4><a href="#">Fisma: Design and Prototype</a></h4>
+            <h4><a href="#">Fisma:&ensp;Design and Prototype</a></h4>
             <p>Designer showcase of new prototype product</p>
           </div>
         </div>
-        <div class="exhibit">
+        <div id="now-and-then" class="exhibit">
           <div class="image-container">
             <a href="#"><img src="./resources/images/thesis-now-and-then.jpg" alt="New York City" /></a>
           </div>
@@ -236,7 +224,7 @@
     </div>
   </section>
 
-<!-- Footer (Desktop/Mobile)-->
+<!-- Footer (Desktop/Mobile) -->
 
   <footer>
     <p>&copy; 2016 Colmar Academy. All rights reserved</p>
